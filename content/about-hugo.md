@@ -1,17 +1,9 @@
-+++
-title = "About Hugo"
-date = "2014-04-09"
-+++
+---
+title: Hello World
+date: 2020-10-06
+draft: false
+author: "Andrew Gonzalez"
+---
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
-
-It makes use of a variety of open source projects including:
-
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Howdy! I'm Andrew Gonzalez, a passionate DevOps engineer who loves to automate everything that deals with the cloud. This blog is a platform for me to share my ideas, things I learn, and a place for me to generally store notes.
 

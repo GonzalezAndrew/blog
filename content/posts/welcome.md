@@ -5,4 +5,5 @@ draft: false
 author: "Andrew Gonzalez"
 ---
 
-Welcome to my blog! The purpose behind my blog is to share my thoughts, ideas, and most importantly have a place to store my notes :) 
+Welcome to my blog!
+
