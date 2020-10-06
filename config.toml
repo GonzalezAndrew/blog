@@ -1,5 +1,5 @@
 publishDir = "public"
-baseURL = "https://gonzalezandrew.com/"
+baseURL = "https://gonzalezandrew.com"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Andrew Gonzalez"
