@@ -1,4 +1,6 @@
-baseURL = "https://gonzalezandrew.com"
+publishDir = "public"
+
+baseURL = "https://gonzalezandrew.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Andrew Gonzalez"
@@ -71,9 +73,4 @@ disqusShortname = "andrew-gonzalez"
   [[menu.main]]
     name = "Blog"
     url = "blog/"
-    weight = 10
-
-  [[menu.main]]
-    name = "About"
-    url = "about/"
     weight = 10
