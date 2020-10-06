@@ -71,6 +71,6 @@ disqusShortname = "andrew-gonzalez"
 [menu]
 
   [[menu.main]]
-    name = "Blog"
-    url = "blog/"
+    name = "Posts"
+    url = "posts/"
     weight = 10
