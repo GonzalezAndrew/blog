@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://gonzalezandrew.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Andrew Gonzalez"
@@ -9,7 +9,7 @@ pygmentsUseClasses  = true
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-123-45"
 disqusShortname = "andrew-gonzalez"
 
 [author]
@@ -69,11 +69,11 @@ disqusShortname = "andrew-gonzalez"
 [menu]
 
   [[menu.main]]
-    name = "Posts"
-    url = "posts/"
+    name = "Blog"
+    url = "blog/"
     weight = 10
 
-  # [[menu.main]]
-  #   name = "About"
-  #   url = "about-hugo/"
-  #   weight = 20
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 10
