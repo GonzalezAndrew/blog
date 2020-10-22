@@ -11,7 +11,7 @@ rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 # googleAnalytics = "UA-123-45"
-disqusShortname = "andrew-gonzalez"
+disqusShortname = "andrewgonzalez"
 
 [author]
   name = "Andrew Gonzalez"
@@ -34,7 +34,7 @@ disqusShortname = "andrew-gonzalez"
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
-  themeColor = "#2c3e50"
+  themeColor = "#68829c"
 
   homeSubtitle = "@GonzalezAndrew"
   footerCopyright = ''

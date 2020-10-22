@@ -11,7 +11,7 @@ tags:
   - automation
 ---
 
-![Docker Image](/static/post-images/docker.jpg)
+<img class="center" src="static/tools.png"/>
 
 # Introduction
 Lately due to current circumstances, I have been slowly getting adjusted to working from home. The main challenges I have found from adjusting to my new work environment, was having to constantly transition my development between my work machine, personal macbook air, windows gaming pc, and my linux box. Having the proper binaries or packages I use between each machine become a chore, I constantly ran into version issues with Terraform or just did not have a particular binary installed. 
