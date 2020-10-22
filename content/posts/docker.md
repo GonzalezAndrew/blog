@@ -4,6 +4,7 @@ date: 2020-10-21
 draft: false
 toc: true
 author: "Andrew Gonzalez"
+comments: true
 tags: 
   - docker
   - terraform
