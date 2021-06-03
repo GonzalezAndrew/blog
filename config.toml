@@ -35,7 +35,7 @@ googleAnalytics = ""
 	pagetitle = "Andrew Gonzalez"
 
 	# Add a subtitle to your website
-	subtitle = "Head in the clouds."
+	subtitle = "DevOps Engineer who has his head stuck in the clouds."
 
 	# Activate to show authors on pages if available
 	#listAuthor = true
@@ -59,7 +59,7 @@ googleAnalytics = ""
 	#disableTaxoTypes = [""]
 
 	# Custom CSS applied to default styles. (Path could be "static/css/")
-	#customCSS = "css/syntax.css"
+	customCSS = "css/syntax.css"
 
 # Comments
 [params.comments]
