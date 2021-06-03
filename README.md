@@ -1,3 +1,4 @@
-# andrewgonzalez/blog
+# gonzalezandrew/blog
 
-This is my personal blog
+This is my personal [blog](https://gonzalezandrew.com/).
+
