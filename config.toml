@@ -1,80 +1,134 @@
-publishDir = "public"
-baseURL = "https://gonzalezandrew.com/"
+baseURL = "http://gonzalezandrew.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
+author = "Andrew Gonzalez"
 title = "Andrew Gonzalez"
-theme = "hermit"
-# enableGitInfo = true
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
-rssLimit = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
-enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
-# googleAnalytics = "UA-123-45"
-disqusShortname = "andrewgonzalez"
+theme = "hugo-vitae"
+paginate = 5
+enableRobotsTXT = true
 
-[author]
-  name = "Andrew Gonzalez"
+copyright = "© Andrew Gonzalez 2020 - 2021. Powerd by [Hugo](https://gohugo.io)"
 
-[blackfriday]
-  # hrefTargetBlank = true
-  # noreferrerLinks = true
-  # nofollowLinks = true
+pygmentsstyle = "colorful"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses=true
+
+googleAnalytics = ""
 
 [taxonomies]
-  tag = "tags"
-  # Categories are disabled by default.
+	tag = "tags"
+	category = "categories"
+	series = "series"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+	# Use homepage.md instead of a list of posts
+	homepage = false
 
-  # Metadata mostly used in document's head
-  # description = ""
-  # images = [""]
-  themeColor = "#68829c"
+	# Add meta keywords in head part (Site Keywords or Tags of Page)
+	keywords = ["hugo","aws","python","sql"]
 
-  homeSubtitle = "@GonzalezAndrew"
-  footerCopyright = ''
-  bgImg = "bg.jpg"  # Homepage background-image URL
+	# Add meta description in head part
+	description = "Recent content by Andrew Gonzalez."
 
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  gitUrl = "https://github.com/GonzalezAndrew/blog"
+	# Add pagetitle to homepage <title> tag
+	pagetitle = "Andrew Gonzalez"
 
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
-  justifyContent = true  # Set "text-align: justify" to `.content`.
+	# Add a subtitle to your website
+	subtitle = "Head in the clouds."
 
-  relatedPosts = true  # Add a related content section to all single posts page
+	# Activate to show authors on pages if available
+	#listAuthor = true
 
-  code_copy_button = true # Turn on/off the code-copy-button for code-fields
-  
-  # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
+	# Add math typesetting with KaTeX (Global with this Param)
+	math = true
 
-  # Social Icons
-  # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/_GonzalezAndrew"
+	# Optional 80x80 avatar image.
+	avatar = "/images/me.jpg"
 
-  [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/-andrew-gonzalez/"
+	# Optional favicons for website
+	#favicon = true
 
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/GonzalezAndrew"
+	# Add list of sections that should show up on the homepage
+        mainSections = ["posts"]
 
-[menu]
+	# Add list of Sections/Types that should no be considered by RSS
+	#nofeedSections = ["post"]
 
-  [[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 10
+	# Deactivate Taxonomies for specific page types
+	#disableTaxoTypes = [""]
 
-  [[menu.main]]
-    name = "About"
-    url = "about-hugo/"
-    weight = 20
+	# Custom CSS applied to default styles. (Path could be "static/css/")
+	#customCSS = "css/syntax.css"
+
+# Comments
+[params.comments]
+# Enable Comments with "true"
+enabled = false
+
+# Comment provider:
+#   disqus (https://disqus.com)
+#   commento (https://commento.io)
+#engine = "disqus"
+
+# Content types to disable comments on.
+#disableOnTypes = ["page"]
+
+[params.comments.disqus]
+#shortname = "" # Paste the shortname from your Disqus dashboard.
+
+[params.comments.commento]
+#host = "" # Paste the domain of you commento.io system
+
+# Navigation
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+# [[menu.main]]
+# name = "Categories"
+# url = "/categories"
+# weight = 5
+
+# Social Menu
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://github.com/GonzalezAndrew"
+
+[[params.social]]
+name = "Twitter"
+icon = "fab fa-twitter-square"
+url = "https://twitter.com/_GonzalezAndrew"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/-andrew-gonzalez/"
+
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = true
+hl_Lines = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+tabWidth = 4
+noClasses = true  
