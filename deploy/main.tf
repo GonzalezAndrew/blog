@@ -1,3 +1,11 @@
+terraform {
+  backend "remote" {
+    organization = "gonzalezandrew"
+    workspaces {
+      name = "blog"
+    }
+  }
+}
 
 module "hugo_blog" {
   source  = "GonzalezAndrew/app-site/digitalocean"

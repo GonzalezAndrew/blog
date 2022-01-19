@@ -6,4 +6,3 @@ author: "Andrew Gonzalez"
 ---
 
 Welcome to my blog!
-

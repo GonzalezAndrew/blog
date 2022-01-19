@@ -1,4 +1,3 @@
 # gonzalezandrew/blog
 
-This is my personal [blog](https://gonzalezandrew.com/).
-
+This repository is for my [blog](https://blog.gonzalezandrew.com/).
