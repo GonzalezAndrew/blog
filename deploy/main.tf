@@ -30,11 +30,3 @@ module "hugo_blog" {
     }
   }]
 }
-
-resource "digitalocean_project" "this" {
-    name = "blog"
-    description = "A project to reprsent all resources for my blog."
-    purpose = "Blog"
-    environment = "Production"
-    resources = [module.hugo_blog.id]
-}
